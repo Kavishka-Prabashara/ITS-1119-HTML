@@ -20,9 +20,18 @@
         <source media="(min-width: 800px)" srcset="assets/images/medium.jpg">
         <img src="assets/images/small.jpg" title="Iphone" alt="iphone">
     </picture>
-<video controls autoplay loop muted>
+<video controls
+       autoplay
+       loop
+       muted
+       width="700px"
+       height="400px"
+poster="assets/images/car.jpg">
     <source src="assets/videos/car.mp4" type="video/mp4">
     <source src="assets/videos/car.webm" type="video/webm">
+    <track label="English" kind="subtitles" src="assets/subs/sample.vtt" srclang="English" default>
+    <track label="Arabic" kind="subtitles" src="assets/subs/arabic.vtt" srclang="Arabic">
+
     Your Browser has out of dated.update first and Try again.
     <!--<video src="assets/videos/car.mp4">-->
 </video>
